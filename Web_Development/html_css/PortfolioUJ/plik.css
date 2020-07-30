@@ -1,0 +1,96 @@
+@media screen and (max-width: 800px) {
+  .contactsocial{
+    padding-top:30%;
+  }
+}
+
+body{
+font-family: 'Rajdhani', sans-serif;
+background-color: white;
+}
+
+nav{
+text-align: center;
+}
+
+.navbar {
+  position: relative;
+}
+
+.brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.mainpage{
+text-align: center;
+background-image: url("album_cover_2.png");
+background-position: 55% 35%;
+height: 100%;
+}
+
+.name{
+padding:11%;
+color:rgb(66, 66, 66);
+}
+
+.aboutme{
+padding-top: 5%;
+text-align:justify;
+background-size:cover;
+margin-left: 25%;
+margin-right: 25%;
+height: 20%;
+}
+
+.work{
+margin-top: 20px;
+text-align: center;
+height: 20%;
+}
+
+.contact{
+margin-top: 21%;
+text-align: center;
+height: 20%;
+}
+
+#bg { 
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foot{
+background-color:rgb(226, 226, 226);
+padding: 10px;
+width: 100%;
+position: fixed;
+bottom:0;
+  }
+
+  .title{
+    text-align: center;
+    background-image: url("album_cover_2.png");
+    background-position: 55% 35%;
+    height: 10%;
+    }
+
+    .titletext{
+      padding:7%;
+      color:rgb(66, 66, 66);
+      }
+
+.images{
+  margin-top:2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+.picture{
+  padding-bottom:10px;
+}
+  

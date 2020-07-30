@@ -1,0 +1,124 @@
+body {
+    /* background: rgb(30, 36, 22); */
+    background: rgb(15, 15, 15);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+}
+.navbar-brand {
+    color: rgb(255, 149, 0);
+}
+
+.navbar .nav-link {
+    color:rgb(255, 149, 0);
+}
+
+.navbar {
+    background: rgb(12, 12, 12);
+}
+
+.navbar-toggler-icon {
+    background: rgb(12, 12, 12);
+}
+
+#bars 
+{
+    max-height: 30px;
+}
+
+.dropdown-menu {
+    background: rgb(15, 15, 15);
+}
+
+.dropdown-item {
+    color: rgb(255, 149, 0);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.dropdown-item:hover {
+    background: rgb(15, 15, 15);
+    color: rgb(158, 95, 0);
+}
+
+.procent {
+    color: rgb(255, 153, 0);
+}
+
+.navbar .nav-link:hover {
+    color: rgb(158, 95, 0);
+}
+
+.navbar-brand:hover {
+    color: rgb(158, 95, 0);
+}
+
+#carouselExampleControls img {
+    margin-top: 60px;
+}
+
+
+.carousel {
+    margin-top: 100px;
+}
+
+.card-header {
+    /* background: rgb(250, 149, 0); */
+}
+
+div .col-2 {
+    padding: 0 0 0 0;
+}
+
+#info {
+    padding-bottom: 0;
+}
+
+.post {
+    margin-top: 15px;
+    padding-bottom: 0;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.btn-warning {
+    background: rgb(255, 149, 0); 
+}
+
+.btn-warning:hover {
+    background: rgb(206, 123, 0);
+}
+
+.older {
+    margin-bottom: 17px;
+}
+
+footer {
+    background: rgb(12, 12, 12);
+    color: rgb(255, 149, 0);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+footer p {
+    padding-bottom: 0;
+}
+
+.footer-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.koniec {
+    font-size: 13px;
+    line-height: 3px;
+}
+
+@media (max-width: 1250px) {
+    #info {
+        margin-top: 65px;
+    }
+}
