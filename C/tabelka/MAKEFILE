@@ -1,0 +1,2 @@
+nazwa: program.c //wszystkie pliki kompilowane
+	gcc -o program.c //tab jest ważny
