@@ -1,0 +1,25 @@
+========================================================================
+Autor: Krzysztof Buczek,                               
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog  zawiera 1 program:
+--------------------------------------------------------------------
+	1.watki.c - zadanie 9
+
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji
+i uruchamiania powyzszych programow.
+
+-> Aby uruchomic programy, nalezy wykonac komende:
+	make all
+	./watki
+
+========================================================================
+

@@ -1,0 +1,29 @@
+========================================================================
+Autor: Krzysztof Buczek,                               
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog  zawiera 4 programy:
+--------------------------------------------------------------------
+	serwer.c
+	klient1.c
+	klient2.c
+    	kolejki_kom.c - funkcje do obslugi kolejek komunikatkow
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji
+i uruchamiania powyzszych programow.
+
+-> Aby uruchomic programy, nalezy wykonac komende:
+	make all
+	./serwer
+	./klient1 xxxxxxxxxx
+	./klient2 xxxxxxxxxx
+	x - nalezy wpisac dowolna mala litere alfabetu
+========================================================================
+
