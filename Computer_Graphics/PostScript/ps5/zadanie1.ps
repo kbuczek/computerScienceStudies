@@ -1,0 +1,19 @@
+%!Ps-Adobe-3.0
+
+/tablica [ 10 20 30 40 50 60 70 80 ] def
+
+300 400 translate
+2 setlinewidth
+
+/i 0 def
+
+1 1 8 { 
+/x i 2 mod def
+x 1 eq {0 1 0 setrgbcolor} {0 0 1 setrgbcolor} ifelse  
+/r tablica i get def
+0 0 r 0 360 arc
+stroke 
+/i i 1 add def
+} for
+
+showpage

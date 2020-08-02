@@ -1,0 +1,66 @@
+%!Ps-Adobe-3.0
+
+/tablica [ 9 22 32 42 52 62 72 82 92 102 112 122 132 142 152 162] def
+
+50 300 translate
+2 setlinewidth
+/licznik 6 def
+
+/trojkat {
+0 0 moveto
+1000 0 rlineto
+120 rotate
+1000 0 rlineto
+120 rotate
+1000 0 rlineto
+120 rotate
+stroke
+} def
+
+/fraktal {
+gsave
+0.5 0.5 scale
+/licznik licznik 1 sub def
+trojkat
+licznik 0 gt {fraktal 250 430 translate fraktal 250 -430 translate fraktal} if
+/licznik licznik 1 add def
+grestore
+} def
+
+fraktal
+
+/Times-BoldItalic findfont
+25 scalefont
+setfont
+
+0.7 0.7 0.7 setrgbcolor
+150 -100 moveto
+gsave
+1 -1 scale
+(Trojkat Sierpinski) show
+grestore
+
+0 0 0 setrgbcolor
+150 -100 moveto
+(Trojkat Sierpinski) show
+stroke
+
+200 -180 translate
+1 0 0 setrgbcolor
+5 setlinewidth
+1 setlinecap
+/i 0 def
+1 1 16 {
+0 0 moveto 
+/r tablica i get def
+/x i 3 mod def
+x 0 eq {1 0 0 setrgbcolor} if 
+x 1 eq {0 1 0 setrgbcolor} if 
+x 2 eq {0 0 1 setrgbcolor} if 
+24 rotate
+r 0 rlineto
+stroke 
+/i i 1 add def
+} for
+
+showpage

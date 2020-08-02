@@ -1,0 +1,21 @@
+%!Ps-Adobe-3.0
+
+300 400 translate
+/zm_string 20 string def
+/zm_int 100 def
+/i 20 def
+
+
+1 1 5 { 
+0 0 i 0 360 arc
+stroke 
+/i i 20 add def
+} for
+
+1 1 5 {
+    zm_int zm_string cvs show
+    /zm_int zm_int 10 sub def
+    0 20 moveto
+}
+
+showpage

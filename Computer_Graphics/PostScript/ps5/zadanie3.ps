@@ -1,0 +1,22 @@
+%!Ps-Adobe-3.0
+
+/filledcircle {
+    /x exch def
+    /y exch def
+    /r exch def
+    /red exch def
+    /green exch def
+    /blue exch def
+
+    gsave
+    red green blue setrgbcolor
+    newpath
+    x y r 0 360 arc
+    fill
+    grestore
+} def
+
+0 0 1 100 200 200 filledcircle
+0 1 0 50 400 200 filledcircle
+1 0 0 10 100 400 filledcircle
+showpage

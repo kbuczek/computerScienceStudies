@@ -1,0 +1,24 @@
+%!Ps-Adobe-3.0
+
+/r 20 def
+/line {r 0 rlineto stroke} def
+
+/circle {
+1 dict begin
+/r 20 def
+0 1 4 {
+    /r r 5 add def
+    100 100 r 0 360 arc
+    stroke
+} for
+end
+} def
+
+100 150 moveto
+line
+circle
+100 50 moveto
+1 0 0 setrgbcolor
+line
+
+showpage

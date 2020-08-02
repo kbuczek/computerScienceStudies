@@ -1,0 +1,28 @@
+%!Ps-Adobe-3.0
+
+300 0 translate
+4 setlinewidth
+/licznik 6 def
+
+/motyw {
+0 0 moveto
+0 200 lineto
+stroke
+0 200 translate
+} def
+
+/fraktal {
+gsave
+0.7 0.7 scale
+/licznik licznik 1 sub def
+motyw
+licznik 0 gt {20 rotate fraktal -40 rotate fraktal} if
+licznik 0 eq {0 0 35 0 360 arc fill} if
+/licznik licznik 1 add def
+
+grestore
+} def
+
+fraktal
+
+showpage

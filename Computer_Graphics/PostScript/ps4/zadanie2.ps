@@ -1,0 +1,16 @@
+%!Ps-Adobe-3.0
+
+/x 150 def
+/y 200 def
+/r 60 def
+/okrag {
+x y r 0 360 arc stroke 
+/r r 20 add def 
+/y y 20 sub def
+r 80 eq {0 1 0 setrgbcolor} if 
+r 100 eq {1 0 0 setrgbcolor} if
+} def
+
+3 {okrag} repeat
+
+showpage
