@@ -1,0 +1,18 @@
+	Proces macierzysty		Pokolenie 1:
+	PID:4329	 -------------- PID:4330
+	PPID:4256			PPID:4329
+	PGID:4329			PGID:4329
+	 |	 |			 |	 |	
+	 |	 |			 |	 |
+	 |	 |			 |	 |
+Pokolenie 2:	 |		Pokolenie 2:	 |
+PID:4332	 |		PID:4331	 |
+PPID:4329	 |		PPID:4330	 |
+PGID:4329	 |		PGID:4329	 |
+	|	 |			 |	 |
+	|	 |			 |	 |
+	|	 |			 |	 |
+Pokolenie 3:	Pokolenie 3:	Pokolenie 3:	Pokolenie 3:
+PID:4335	PID:4335	PID:4333	PID:4334
+PPID:4332	PPID:4329	PPID:4331	PPID:4330
+PGID:4329	PGID:4329	PGID:4329	PGID:4329

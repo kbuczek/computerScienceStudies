@@ -1,0 +1,57 @@
+========================================================================
+Autor: Krzysztof Buczek,                               
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog 1.procesy zawiera 4 programy:
+--------------------------------------------------------------------
+I. Program wypisujacy identyfikatory dla danego procesu.
+    1)procesy_a.c - program glowny,
+    2)identyfikatory.c - program wypisujacy identyfikatory danego procesu
+
+II. Program zawierajay funckje fork w petli for wywolywanej 3 razy i wypisujacy identyfikatory dla procesu macierzystego i procesów potomnych.
+    1)procesy_b.c -program glowny,
+    2)identyfikatory.c - program wypisujacy identyfikatory danego procesu
+
+III. Program w ktorym procesy potomne sa adoptowane przez proces init za pomoca wstawienia funkcji sleep.
+    1)procesy_c.c -program glowny,
+    2)identyfikatory.c - program wypisujacy identyfikatory danego procesu
+
+IV. Program wypisujący procesy pokoleniami od najstarszego do najmłodszego.
+    1)procesy_d.c -program glowny,
+    2)identyfikatory.c - program wypisujacy identyfikatory danego procesu
+
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji, linkowania
+i uruchamiania powyzszych programow, a takze czyszczenia katalogu 
+i jego archiwizacji.
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+       make runa
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+       make runb
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+       make runc
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+       make rund
+
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+-> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+       make tar
+
+========================================================================
+
+!!! UWAGA !!!
+Drzewo genealogiczne do zadania 1, podpunkt d) znajduje sie w pliku drzewo_genealogiczne.txt
+

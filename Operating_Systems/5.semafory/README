@@ -1,0 +1,27 @@
+========================================================================
+Autor: Krzysztof Buczek,                               
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog  zawiera 1 program:
+--------------------------------------------------------------------
+I. Program 
+    1)	main.c - program glowny
+    	functions.c - funkcje do obslugi semafora
+    	proces.c - program procesow potomnych zawierajacy sekcje krytyczna
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji
+i uruchamiania powyzszych programow.
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+	make all
+	./main proces n
+	n - calkowita liczba procesow potomnych
+========================================================================
+

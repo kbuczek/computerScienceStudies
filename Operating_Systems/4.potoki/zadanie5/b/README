@@ -1,0 +1,26 @@
+========================================================================
+Autor: Krzysztof Buczek,                               
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog  zawiera 1 program:
+--------------------------------------------------------------------
+I. Program problemu producenta i konsumenta (potok nazwany)
+    1)potoki5b_kons.c - konsument
+    2)potoki5b_prod.c - producent
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji
+i uruchamiania powyzszych programow.
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+	mkfifo my_fifo - zrobienie pliku potoku
+	make runprod - uruchomienie producenta
+	make runkons - uruchomienie konsumenta
+========================================================================
+

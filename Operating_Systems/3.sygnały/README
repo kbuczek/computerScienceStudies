@@ -1,0 +1,45 @@
+========================================================================
+Autor: Krzysztof Buczek,                               
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog  zawiera 3 programy:
+--------------------------------------------------------------------
+I. Program wykonujący czekający na sygnał kill
+    1)sygnaly_a.c
+
+II. Program uruchamiający jeden proces potomny i wysyłający do niego sygnał kill.
+    1)sygnaly_b.c - program glowny,
+    2)sygnaly_a.c - program uruchamiany przez program sygnaly_b.c
+
+III. Program uruchamiający kilka procesów potomny i wysyłający do niech sygnał kill.
+    1)procesy_c.c - program glowny,
+    2)sygnaly_a.c - program uruchamiany przez program sygnaly_c.c
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji
+i uruchamiania powyzszych programow.
+
+!!! WAŻNE !!!
+numer_opcji: 0 - ignorowanie sygnalu, 1 - domyslna obsluga sygnalu, 2 - wlasna obsluga sygnalu
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+	make sygnalya
+       ./sygnalya numer_opcji numer_sygnalu
+       
+-> Aby uruchomic 2-szy program, nalezy wykonac komende:
+	make sygnalyb
+       ./sygnalyb numer_opcji numer_sygnalu
+       
+-> Aby uruchomic 3-szy program, nalezy wykonac komende:
+	make sygnalyc
+       ./sygnalyc numer_opcji numer_sygnalu
+       
+make all - kompiluje wszystkie programy
+========================================================================
+

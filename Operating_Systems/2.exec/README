@@ -1,0 +1,24 @@
+========================================================================
+Autor: Krzysztof Buczek,                               
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog  zawiera 1 program:
+--------------------------------------------------------------------
+I. Program wypisujacy identyfikatory dla danego procesu.
+    1)procesy_b.c - program glowny,
+    2)identyfikatory.c - program wypisujacy identyfikatory danego procesu
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji
+i uruchamiania powyzszych programow.
+
+-> Aby uruchomic 1-szy program, nalezy wykonac komende:
+       make runb
+========================================================================
+
