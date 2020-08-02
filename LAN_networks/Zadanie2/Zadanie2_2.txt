@@ -1,0 +1,9 @@
+Router#traceroute 9.9.1.42
+Type escape sequence to abort.
+Tracing the route to 9.9.1.42
+
+  1   9.9.1.34        0 msec    0 msec    0 msec    
+  2   9.9.1.98        3 msec    0 msec    0 msec    
+  3   9.9.1.42        0 msec    0 msec    3 msec   
+
+Wynik operacji pokazuje, że połączenie jest nawiązane przy użyciu dwóch routerów o adresach ip: 9.9.1.34 i 9.9.1.98
