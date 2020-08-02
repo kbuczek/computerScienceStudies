@@ -1,0 +1,8 @@
+Proszę napisać program - książkę telefoniczną, posiadającą następujące funkcjonalności:
+
+- dodawanie nowego wpisu (osoba, nr telefonu)
+- usuwanie wskazanego wpisu,
+- wyszukiwanie nr telefonu wskazanej osoby
+- zapis i odczyt danych z dysku
+
+Wskazówka: warto skorzystać z klasy java.util.Properties

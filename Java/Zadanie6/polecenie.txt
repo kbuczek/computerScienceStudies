@@ -1,0 +1,1 @@
+Proszę napisać program(y) umożliwiające grę przez sieć w kółko i krzyżyk na planszy o rozmiaze 3x3. Program powienien posiadać graficzny interfejs użytkownika.

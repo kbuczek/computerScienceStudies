@@ -1,0 +1,3 @@
+Proszę napisać program, który wyznaczy histogram długości słów we wskazanym pliku tekstowym. Wynikiem działania programu powinny być dwie kolumny liczb. Pierwsza zawiera liczbę liter w wyrazie, druga liczbę wyrazów o takiej długości w tekście. Wyniki powinny być posortowane względem pierwszej kolumny.
+
+Przykładowymi tekstami do analizy mogą być np. dokumenty tekstowe ze strony https://wolnelektury.pl/

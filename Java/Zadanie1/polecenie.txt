@@ -1,0 +1,1 @@
+Proszę napisać program obliczający pierwiastek n-tego stopnia z liczby podanej jako argument jego wywołania. Program nie może korzystać z metod clasy Math.

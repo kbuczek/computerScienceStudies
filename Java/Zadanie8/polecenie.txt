@@ -1,0 +1,1 @@
+Proszę napisaś książkę telefoniczną (taką jak w zadaniu 3) korzystającą z bazy danych (HSQLDB, SQLite, inne) do przechowywania informacji oraz posiadającą graficzny interfejs użytkownika

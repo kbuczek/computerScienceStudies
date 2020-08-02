@@ -1,0 +1,1 @@
+Proszę opracować i zaimplementować algorytm sortujący tablicę liczb, wykorzystujący wiele wątków. Następnie proszę przeprowadzić testy, w celu ustalenia optymalnej liczby wątków dla której program działa najszybciej. 

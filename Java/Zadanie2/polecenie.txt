@@ -1,0 +1,1 @@
+Proszę napisać klasę abstrakcyjną pozwalającą znaleźć wartość całki oznaczonej jednoargumentowej funkcji rzeczywistej (w zadanym przedziale). Do obliczenia wartości całki proszę użyć metody trapezów https://pl.wikipedia.org/wiki/Całkowanie_numeryczne#Metoda_trapezów. Definicja całkowanej funkcji powinna znajdować się w klasie rozszerzającej przygotowaną klasę abstrakcyjną.

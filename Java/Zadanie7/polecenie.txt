@@ -1,0 +1,1 @@
+Proszę uzupełnić program z zadania 6 o możliwość zapisu i odczytu stanu rozgrywki do pliku w formacie XML wykorzystując technologię JAXB.
