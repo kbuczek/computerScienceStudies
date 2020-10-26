@@ -1,0 +1,1 @@
+print("word".replace("", "_")[1:-1])
