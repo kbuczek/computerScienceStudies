@@ -1,0 +1,6 @@
+1. L nie może być referencją do posortowanej listy samej siebie. Wystarczy napisać L.sort()
+2. Za dużo wartości do przypisania.
+3. X jest krotką, a wartości w krotce nie można zmieniać.
+4. Lista ma miejsca od 0 do 2, X[3] jest poza listą.
+5. X nie jest listą tylko stringiem, a funkcja append jest metodą klasy List.
+6. ?
