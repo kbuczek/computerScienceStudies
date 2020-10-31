@@ -1,3 +1,0 @@
-1. Kod jest poprawny, w pythonie można wstawiać średniki
-2. Kod nie jest poprawny. Kod działa tylko po zastosowaniu indentacji. Python nie pozwala na if/elif/else w jednej linii. 
-3. Kod jest poprawny.
