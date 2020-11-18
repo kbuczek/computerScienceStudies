@@ -38,14 +38,13 @@ def is_zero(frac):
         return False
 
 def cmp_frac(frac1, frac2):
-    i = -1
-    # frac1 = skroc(frac1)
-    # frac2 = skroc(frac2)
-    if frac1[0] == frac2[0]:
-        i += 1;
-    if frac1[1] == frac2[1]:
-        i += 1;
-    return i;
+    frac = sub_frac(frac1, frac2)
+    if is_zero(frac):
+        retrun 0
+    elif is_positive(frac):
+        return 1
+    else:
+        return -1
 
 def frac2float(frac):
     return frac[0]/frac[1]
