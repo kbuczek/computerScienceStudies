@@ -117,8 +117,8 @@ class TestFractions(unittest.TestCase):
 
     def test_cmp_frac(self):
         self.assertEqual(Frac(1, 2).cmp_frac(Frac(1, 4)), 1)
-        self.assertEqual(Frac(2, 5).cmp_frac(Frac(2, 7)), 1)
-        self.assertEqual(Frac(3, 9).cmp_frac(Frac(-2, 7)), 1)
+        self.assertEqual(Frac(2, 1).cmp_frac(Frac(2, 1)), 0)
+        self.assertEqual(Frac(3, 1).cmp_frac(Frac(4, 1)), -1)
 
     def test_frac2float(self):
         self.assertEqual(Frac(0, 2).__float__(), 0)
