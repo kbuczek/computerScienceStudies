@@ -35,7 +35,6 @@ class Point:
     def length(self):
         return math.sqrt((self.x)**2 + (self.y)**2)
 
-print()
 
 # Kod testujący moduł.
 import unittest
