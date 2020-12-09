@@ -6,7 +6,7 @@ def calc_pi(n=1000):
     for i in range(0, n):
         x = random()
         y = random()
-        if sqrt(x*x + y*y)<=1:
+        if x*x + y*y <= 1:
             wnetrze += 1
     pi = 4 * wnetrze / n     # p_kw=4*r*r; p_ko=pi*r*r; p_ko/p_kw = pi/4
     print(pi)
