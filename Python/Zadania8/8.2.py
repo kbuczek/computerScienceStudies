@@ -2,7 +2,7 @@ import math
 
 def solve2(a, b, c):
     if a == 0 and b == 0 and c == 0:
-        print("x jest dowolny")
+        print("rozwiązanie jest nieokreślone")
     else:
         if a != 0:
             delta = (b**2) - (4*a*c)
