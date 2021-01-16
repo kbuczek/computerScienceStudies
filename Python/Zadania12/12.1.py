@@ -7,14 +7,14 @@ def create_random_list(n, k):
     return L
 
 def linear_search(L, left, right, y):
-    placesFound = []
+    indexesFound = []
     i = left
     while i <= right:
         if y == L[i]:
-            placesFound.append(i)
+            indexesFound.append(i)
         i += 1
-    if len(placesFound) != 0:
-        return placesFound
+    if len(indexesFound) != 0:
+        return indexesFound
     else:
         return None
 
