@@ -1,0 +1,1 @@
+Baza danych gwiazd i planek wokół nich krążących. Proszę utworzyć 3 wyzwalacze: wstawiający datę wprowadzenia danych podczas dodawania rekordu do bazy danych, wstawiający datę modyfikacji podczas uaktualniania danych oraz wstawiający informację o usunięciu planety w bazie zamiast usuwania rekordu z bazy.

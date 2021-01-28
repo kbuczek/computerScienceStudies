@@ -1,0 +1,1 @@
+Trzy dowolne procedury dla bazy danych linii lotniczych z ćw 8.

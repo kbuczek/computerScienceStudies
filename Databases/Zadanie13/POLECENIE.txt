@@ -1,0 +1,12 @@
+Dla bazy danych z ćwiczenia 8 (linie lotnicze) proszę przy pomocy funkcji:
+
+1. Usunąć jeden z samolotów oraz jeden z lotów.
+
+2. Wybrać kapitana dla podanego lotu.
+
+3.Wybrać klasę lotu dla podanego pasażera.
+
+4. Funkcja obliczająca zysk z lotu.
+
+5. Wyświetlenie wszystkich pasażerów oraz klasy podróży dla wybranego lotu.
+

@@ -1,0 +1,9 @@
+1. Procedura wypisująca wszystkie dane z każdej tabeli
+
+2. Procedura wypisująca wszystkie samoloty, które obsługiwały więcej niż jedną trasę
+
+3. Procedurę umieszczającą w bazie danych 3 dowolnych pasażerów
+
+4. Widok zawierający wszystkich pasażerów linii lotniczej podróżujących pierwszą klasą
+
+5. Widok wypisujący wszystkie samoloty obsługujące wszystkie trasy (w widoku należy umieścić lotnisko startowe, docelowe oraz nazwę samolotu)

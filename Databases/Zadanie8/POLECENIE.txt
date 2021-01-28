@@ -1,0 +1,1 @@
+Proszę zaprojektować i utworzyć bazę danych linii lotniczej. W stworzonych tabelach należy umieścić dane i przy pomocy polecenia select wypisać dane z każdej utworzonej tableli.
