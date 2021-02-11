@@ -1,6 +1,6 @@
 import random
 
-def getInputFromPlayer(boardWidth, boardHeight):
+def getInputFromPlayer():
     try:
         playerInputX = int(input("Podaj współrzędną x punktu, gdzie chcesz strzelić:\n"))
 
@@ -204,7 +204,7 @@ def playerVsPlayer():
 
         print("KOLEJ GRACZA 1")
         while game1IsHit and not game1IsOver:
-            myShot1 = getInputFromPlayer(boardWidth, boardHeight)
+            myShot1 = getInputFromPlayer()
 
             if not game1.shotIsCorrect(myShot1):
                 print("Nieprawidłowy strzał. Powtórz ruch!")
@@ -224,7 +224,7 @@ def playerVsPlayer():
 
         print("KOLEJ GRACZA 2")
         while game2IsHit and not game2IsOver:
-            myShot2 = getInputFromPlayer(boardWidth, boardHeight)
+            myShot2 = getInputFromPlayer()
 
             if not game1.shotIsCorrect(myShot1):
                 print("Nieprawidłowy strzał. Powtórz ruch!")
@@ -248,9 +248,11 @@ def playerVsComputer():
 
     game1 = Game(boardWidth, boardHeight)
     game1.placeRandomBattleships()
+    # game1.addBattleship(Battleship((1, 1), 2, "RIGHT"))
 
     game2 = Game(boardWidth, boardHeight)
     game2.placeRandomBattleships()
+    # game2.addBattleship(Battleship((1, 1), 1, "RIGHT"))
 
     while 1:
         game1IsHit, game2IsHit = True, False
@@ -259,7 +261,7 @@ def playerVsComputer():
 
         print("KOLEJ GRACZA")
         while game1IsHit and not game1IsOver:
-            myShot1 = getInputFromPlayer(boardWidth, boardHeight)
+            myShot1 = getInputFromPlayer()
 
             if not game1.shotIsCorrect(myShot1):
                 print("Nieprawidłowy strzał. Powtórz ruch!")
