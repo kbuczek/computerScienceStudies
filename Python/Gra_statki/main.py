@@ -283,7 +283,7 @@ def playerVsComputer():
             game2IsHit = game2.shoot(myShot2)
             if game2IsHit:
                 computerLastHit = myShot2
-            if not game1IsHit:
+            if not game2IsHit:
                 print("Pudło!")
             renderBoardRowByRow(game2, True)
             game2IsOver = game2.isOver()
