@@ -6,4 +6,6 @@
 'O' - pudło  
 '#', '<', '>', '^', 'v' - elementy statku  
 
-###### Haha
+## Opis Funkcji
+
+getInputFromPlayer() - pobiera input od gracza
