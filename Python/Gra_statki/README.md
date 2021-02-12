@@ -8,9 +8,9 @@
 
 ## Opis Funkcji
 
-<b>getInputFromPlayer()</b> - pobiera input od gracza  
+<b>getInputFromPlayer()</b> - pobiera input od gracza. Wyrzuca wyjątek, jeżeli input nie jest typu int.  
 
-klasa <b>Battleship()</b> - klasa statku, tworzy koordynaty statku i je przechowuje w liście coordinatesList  
+klasa <b>Battleship(startingPoint, length, direction)</b> - klasa statku, tworzy koordynaty statku (fukcja createBattleship()) na podstawie startingPoint, length i direction. Przechowuje 2 elementowe krotki koordynaty statku w liście coordinatesList.  Zawiera listę hitDetection, która pola true or false, gdzie true oznacza trafione miejsce. Funkcja isDestroyed() zwraca true jeżeli wszystkie pola w hitDetection są true.
 
 klasa <b>Game()</b> - odpowiada za logikę gry. Dodaje i sprawdza poprawność lokalizacji i kolizji statków. Dodaje i sprawdza poprawność strzałów. Tworzy losowe położenie statków. Zawiera słownik allShots, który zawiera wszystkie strzały na planszy (kluczem są krotki 2 elementowe, a wartością prawda lub fałsz)  
 
