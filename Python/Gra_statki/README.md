@@ -1,5 +1,5 @@
 # Gra Statki w konsoli
-Gra rozpoczyna się od ustawienia statków na planszy (każdy z 2 graczy ma swoją planszę, w moim programie ustawianie statków jest losowe). Jest 1 statek z 5 polami. 2 statki z 4 polami. 3 statki z 3 polami. 3 statki z 2 polami. Następnie na zmianę gracze strzelają w planszę przeciwnika. W momencie trafinia w statek, gracz ponawia ruch. Wygrywa gracz, który pierwszy zniszczy wszystkie statki przeciwnika.
+Gra rozpoczyna się od ustawienia statków na planszy (każdy z 2 graczy ma swoją planszę, w moim programie ustawianie statków jest losowe). Jest 1 statek z 5 polami. 2 statki z 4 polami. 3 statki z 3 polami. 3 statki z 2 polami. Gracze na zmianę strzelają w planszę przeciwnika. W momencie trafinia w statek, gracz ponawia ruch. Wygrywa gracz, który pierwszy zniszczy wszystkie statki przeciwnika.
 
 Uruchomienie: python main.py
 
