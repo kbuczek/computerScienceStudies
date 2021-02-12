@@ -1,4 +1,5 @@
 # Gra Statki w konsoli
+Gra rozpoczyna się od ustawienia statków na planszy (każdy z 2 graczy ma swoją planszę). Następnie na zmianę gracze strzelają w planszę przeciwnika. W momencie trafinia w statek, gracz ponawia ruch. Wygrywa gracz, który pierwszy zniszczy wszystkie statki przeciwnika. 
 
 ## Znaczenie znaków
 '_' - puste miejsce  
