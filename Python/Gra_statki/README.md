@@ -23,4 +23,4 @@ klasa <b>Game()</b> - odpowiada za planszę gry. Przechowuje w słowniku allShot
 
 <b>playerVsComputer()</b> - odpowiada za przebieg gry pomiędzy graczem i komputerem
 
-<b>*getInputFromComputer2(battleshipWasHit, lastShot, game)</b> - generuje losowe strzały na planszy. Sprawdza czy danego strzału nie ma już w game.allShots. Jeżeli strzał w poprzedniej rundzie był trafiony (battleshipWasHit), to generuje losowy strzał obok ostatniego strzału (lastShot)
+<b>*getInputFromComputer2(battleshipWasHit, lastShot, game)</b> - ulepszona wersja getInputFromComputer(), czasami wpada w nieskończoną pętle while. Generuje losowe strzały na planszy. Sprawdza czy danego strzału nie ma już w game.allShots. Jeżeli trafił
