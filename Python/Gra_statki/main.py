@@ -226,7 +226,6 @@ def getInputFromComputer2(battleshipWasHit, computerLastHits, game):
             del computerLastHits[-1]
             lastShot = computerLastHits[-1]
             
-        # WARNING! ENDLESS LOOP. IF ALL DIRECTIONS ARE ALREADY HIT THEN IT SHOULD BACKTRACK TO LAST HIT
         # shoot close to last hit (+- 1) and check if next shot is inside the board
         while (lastShot[0] + randomDirX < 1) or (lastShot[0] + randomDirX > game.boardWidth) or (lastShot[1] + randomDirY < 1) or (lastShot[1] + randomDirY > game.boardWidth) or ((lastShot[0] + randomDirX, lastShot[1] + randomDirY) in game.allShots):
             randomDirX = random.randrange(-1, 2)
