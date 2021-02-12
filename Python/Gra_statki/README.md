@@ -16,7 +16,7 @@ klasa <b>Game()</b> - odpowiada za planszę gry. Przechowuje w słowniku allShot
 
 <b>renderBoardRowByRow(game, showBattleships)</b> - renderuje planszę wiersz po wierszu. Jako pierwszy argument przyjmuje instancję klasy Game(). Drugi argmuent odpowiada za to, czy pokazać położenie statków.  
 
-<b>getInputFromComputer(boardWidth, boardHeight, battleshipWasHit, lastShot, game)</b> - generuje losowe strzały na planszy. Jeżeli strzał w poprzedniej rundzie był trafiony (battleshipWasHit), to generuje losowy strzał obok ostatniego strzału (lastShot)
+<b>getInputFromComputer(battleshipWasHit, lastShot, game)</b> - generuje losowe strzały na planszy. Sprawdza czy danego strzału nie ma już w game.allShots. Jeżeli strzał w poprzedniej rundzie był trafiony (battleshipWasHit), to generuje losowy strzał obok ostatniego strzału (lastShot)
 
 <b>playerVsPlayer()</b> - odpowiada za logikę gry pomiędzy dwoma graczami 
 
