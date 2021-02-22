@@ -1,5 +1,0 @@
-use nodemon in console
-not: node app.js
-just: nodemon
-
-npm install -g nodemon
