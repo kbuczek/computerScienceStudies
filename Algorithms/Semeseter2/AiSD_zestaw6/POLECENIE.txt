@@ -1,0 +1,6 @@
+1.Proszę zapoznać się z pakietem Graphviz. Następnie korzystając z programu dot proszę stworzyć plik jpg z grafem:
+
+zawierającym trzy wierzchołki
+zawierającym połączenia, w obydwu kierunkach, pomiędzy wszystkimi wierzchołkami
+
+2.Proszę uzupełnić Państwa implementację grafu z poprzedniego zestawu o metodę tworzącą plik, który może być wykorzystany przez program dot do narysowania grafu.
