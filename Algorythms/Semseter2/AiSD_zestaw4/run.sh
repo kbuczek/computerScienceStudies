@@ -1,2 +1,0 @@
-make
-java Zestaw4
